@@ -1,58 +1,8 @@
-// Objective: add list items to the DOM by using the form
+/*
 
+    Objective no. 1: Using the form, append <li></li> list items to the <ul></ul> on the DOM. The text content of each list item should be the text you enter into the first name and last name input fields. When you submit each name, clear the input fields so that they're blank again.
 
+    Objective no. 2: Using an event listener, make it so that when you click on the orange box, it changes the color to red. Extra credit: After you change it to red, make it change back to orange when you click on it again.
 
+*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const form = document.form
-// const firstName = form.firstName
-// const lastName = form.lastName
-// const list = document.getElementById("list")
-
-// form.addEventListener("submit", function(e) {
-//     e.preventDefault()
-
-//     const name = document.createElement("li")
-//     name.textContent = firstName.value + " " + lastName.value
-//     list.append(name)
-//     firstName.value = ""
-//     lastName.value = ""
-// })
