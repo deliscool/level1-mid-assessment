@@ -8,4 +8,4 @@ Below are some screenshots of what the page in the browser should look like when
 
 ## Append list items to the DOM:
 
-![dom-list-items](./readme-images/mid-assessment-form.png)
+![dom-list-items](../readme-images/mid-assessment-form.png)
