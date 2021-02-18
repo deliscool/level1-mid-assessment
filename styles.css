@@ -6,9 +6,13 @@
     Tips: You may need to adjust the height and width of the container in order to adjust for the changes you make. You don't need to change the height & width for each individual box.
 */
 
-.container {
-    height: 400px;
+.container1 {
+    height: 250px;
     width: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
 }
 
 .box {
@@ -32,3 +36,16 @@
     background-color: blue;
 }
 
+.container2 {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction:row;
+}
+
+.container3 {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction:column;
+}
