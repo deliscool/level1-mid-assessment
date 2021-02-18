@@ -6,3 +6,20 @@
 
 */
 
+const form = document.form
+
+// Submit event
+
+form.addEventListener("submit", function(event){
+    event.preventDefault()
+    
+    const firstName = form.firstName.value
+    const lastName = form.lastName.value
+    form.firstName.value = ""
+    form.lastName.value = ""
+    
+    const newLi = document.createElement('li')
+    newLi.textContent = firstName + " " + lastName
+    document.getElementsByTagName("ul")[0].append(newLi)
+})
+
